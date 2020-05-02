@@ -1,0 +1,14 @@
+if !Dead Space origin.exe exists { write required Dead Space origin.exe, return }
+if !Dead Space texmod.exe exists { write required Dead Space texmod.exe, return }
+
+if Dead Space.exe exists {
+	//delete dead space.exe
+}
+
+	//copy Dead Space texmod.exe to Dead Space.exe
+	//Launch Dead Space.exe
+	//Wait 3s
+	//Rename Dead Space.exe to Dead Space texmod.exe
+	//copy Dead Space origin.exe to Dead Space.exe
+	//prompt user 
+	//cleanup
